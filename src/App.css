@@ -1,15 +1,52 @@
-.App {
-  
+*{
+    text-align: center;
+    background-color: rgb(29, 29, 29);
 }
 
-.App-logo {
-  
+Table , Form {
+    margin: 2rem auto;
 }
 
+th, td {
+    padding: 1rem;
+    border: 1px solid rgb(174, 174, 174);
+    color: rgb(174, 174, 174);
+}
 
+.Edit {
+    background-color: rgb(218, 218, 218);
+    border-color: rgb(218, 218, 218);
+}
 
-.App-link {
-  
+.Delete {
+    background-color: rgb(254, 134, 134);
+    border-color: rgb(254, 134, 134);
+}
+
+.Link_Button Button{
+    width: 5rem;
+    height: 2rem;
+    background-color: rgb(159, 159, 252);
+    border-color: rgb(159, 159, 252);
+}
+
+Button:hover {
+    cursor: pointer;
+    opacity: 70%;
+}
+
+.Input {
+    color: rgb(174, 174, 174);
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    border-color: rgb(174, 174, 174);
+}
+Form Button {
+    background-color: rgb(174, 174, 174);
+    border-color: rgb(174, 174, 174);
+    width: 5rem;
+    height: 2rem;
+    margin: 1rem 0.5rem;
 }
 
 

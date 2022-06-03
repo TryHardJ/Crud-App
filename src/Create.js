@@ -23,18 +23,21 @@ function Create(){
     return (
         <div>
             <Form>
-                <Form.Group controlId='Username'>
-                    <Form.Control onChange={e => setUsername(e.target.value)}
+                <Form.Group>
+                    <Form.Control className ='Input'
+                    onChange={e => setUsername(e.target.value)}
                     type="text"
                     placeholder = "Create Username" required/>
                 </Form.Group>
-                <Form.Group controlId='Email'>
-                    <Form.Control onChange={e => setEmail(e.target.value)}
+                <Form.Group>
+                    <Form.Control className ='Input'
+                    onChange={e => setEmail(e.target.value)}
                     type="text"
                     placeholder = "Enter Email" required/>
                 </Form.Group>
-                <Form.Group controlId='Password'>
-                    <Form.Control onChange={e => setPassword(e.target.value)}
+                <Form.Group>
+                    <Form.Control className ='Input'
+                    onChange={e => setPassword(e.target.value)}
                     type="text"
                     placeholder = "Create Password" required/>
                 </Form.Group>

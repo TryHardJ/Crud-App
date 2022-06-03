@@ -39,18 +39,18 @@ function Home (){
                         <td>{index.password}</td>
                         <td>
                             <Link to={'/edit'}>
-                            <Button onClick={() => setID(index.id, index.username, index.email, index.password)}>
+                            <Button className='Edit' onClick={() => setID(index.id, index.username, index.email, index.password)}>
                             Update</Button></Link>
                         </td>
                         <td>
-                            <Button onClick={() => deleted(index.id)}>Delete</Button>
+                            <Button className='Delete' onClick={() => deleted(index.id)}>Delete</Button>
                         </td>
                     </tr>
                 )
             })}
         </tbody>
         </Table>
-        <Link to='/create'>
+        <Link className='Link_Button' to='/create'>
             <Button>Create</Button>
         </Link>
         </div>

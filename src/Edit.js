@@ -32,22 +32,22 @@ function Edit(){
     return (
         <div>
             <Form>
-                <Form.Group controlId='Username'>
-                    <Form.Control 
+                <Form.Group>
+                    <Form.Control className ='Input'
                     value = {username}
                     onChange={e => setUsername(e.target.value)}
                     type="text"
                     placeholder = "Update Username"/>
                 </Form.Group>
-                <Form.Group controlId='Email'>
-                    <Form.Control 
+                <Form.Group>
+                    <Form.Control className ='Input'
                     value={email}
                     onChange={e => setEmail(e.target.value)}
                     type="text"
                     placeholder = "Update Email"/>
                 </Form.Group>
-                <Form.Group controlId='Password'>
-                    <Form.Control 
+                <Form.Group>
+                    <Form.Control className ='Input'
                     value={password}
                     onChange={e => setPassword(e.target.value)}
                     type="text"
