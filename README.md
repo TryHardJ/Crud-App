@@ -1,3 +1,7 @@
+# Video of Crud Api
+
+https://user-images.githubusercontent.com/96887379/172714694-db49972b-eca0-4a17-8b53-0afed11aa90e.mp4
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
